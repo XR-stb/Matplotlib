@@ -9,8 +9,7 @@
 > 我们所熟知的pandas和seaborn的绘图接口其实也是基于matplotlib所作的高级封装。
 
 ### 2.一个简单的绘图
-
-![image-20220110160436766](C:\Users\86187\AppData\Roaming\Typora\typora-user-images\image-20220110160436766.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/1c7a478f2aba4960867c73c88a52336d.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP5p-T5aSn5aSn,size_20,color_FFFFFF,t_70,g_se,x_16)
 
 **Code**
 
@@ -28,21 +27,17 @@ plt.show()  #显示图像
 
 > 完整的matplotlib图像通常会包含以下四个层级，每个层级也叫container（容器）
 
-* <font color = #EC407A>Figure</font>: 顶层级别，用来容纳==**所有**==的绘图元素
-* <font color = #EC407A>Axes</font>:    matplotlib的==**核心**==，容纳了大量元素来构造一幅幅子图，一个                              figure可以由**==多个或一个==**子图组成
-* <font color = #EC407A>Axis</font>:     axes的下属层级，用于处理所有和==**坐标轴，网格**==有关的元素
-* <font color = #EC407A>Tick</font>:      axis的下属层级，用来处理所有与==**刻度**==有关的元素
+* <font color = #EC407A>Figure</font>: 顶层级别，用来容纳==所有==的绘图元素
+* <font color = #EC407A>Axes</font>:    matplotlib的==核心==，容纳了大量元素来构造一幅幅子图，一个                              figure可以由==多个或一个==子图组成
+* <font color = #EC407A>Axis</font>:     axes的下属层级，用于处理所有和==坐标轴，网格==有关的元素
+* <font color = #EC407A>Tick</font>:      axis的下属层级，用来处理所有与==刻度==有关的元素
 
-![anatomy](https://matplotlib.org/_images/anatomy.png)
+![anatomy](https://img-blog.csdnimg.cn/img_convert/0977face791e2653ac4bca34efbcb960.png)
 
 ### 4.两种绘图接口
 
-![image-20220110170022970](C:\Users\86187\AppData\Roaming\Typora\typora-user-images\image-20220110170022970.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/731b0764b4654e0588d827f97ab14a38.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP5p-T5aSn5aSn,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-**matplotlib提供了两种最常用的绘图接口**
-
-1. 显式创建figure和axes，在上面调用绘图方法，也被称为OO模式（object-oriented style)(面向对象模式)
-2. 依赖pyplot自动创建figure和axes，并绘图
 
 **Code_1**
 
@@ -106,8 +101,8 @@ plt.show()
 > link:https://www.cnblogs.com/lfri/p/12248629.html
 
 ### 5.通用绘图模板
+![在这里插入图片描述](https://img-blog.csdnimg.cn/d3888fe6d6204cf0ab2fef990a5d3293.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5bCP5p-T5aSn5aSn,size_20,color_FFFFFF,t_70,g_se,x_16)
 
-![image-20220110173900109](C:\Users\86187\AppData\Roaming\Typora\typora-user-images\image-20220110173900109.png)
 
 **Code**
 
